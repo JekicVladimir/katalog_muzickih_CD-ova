@@ -1,0 +1,112 @@
+{"music":[
+	{
+		"id":		1,
+		"title":	"Confidence",
+		"authors": 	["Gentleman"],
+		"category":	"Reggae",
+		"listOfSongs": ["Send a Prayer, Superior,Caan Hold Us Down, Intoxication, New Day"],
+		"imgHires":"images/musichd/gent/gentv.jpg",
+		"imgLores":"images/music/gent/gent.jpg",
+		"price": 300,
+		"new":		"true"
+	},
+	{
+		"id":		2,
+		"title":	"JailHouse Rock",
+		"authors": 	["Elvis Presley"],
+		"category":	"Rock & Roll",
+		"listOfSongs": ["Blue Moon, Love You Because, JailHouse Rock"],
+		"imgHires":"images/musichd/aa/aa.jpg",
+		"imgLores":"images/music/aa/aam.jpg",
+		"price": 2000,
+		"new":		"false"
+	},
+	{
+		"id":		3,
+		"title":	"Rated R",
+		"authors": 	["Rihanna"],
+		"category":	"Reggae , R&B , Pop",
+		"listOfSongs": ["Mad House, Rockstar 101, Rude Boy, Te Amo"],
+		"imgHires":"images/musichd/r/rm.jpg",
+		"imgLores":"images/music/r/r.jpg",
+		"price": 500,
+		"new":		"true"
+	},
+	{
+		"id":		4,
+		"title":	"Reload",
+		"authors": 	["Tom Jones"],
+		"category":	"Pop, Rock",
+		"listOfSongs": ["Sex Bomb, She is a Lady, All Mine"],
+		"imgHires":"images/musichd/tom/tom.jpg",
+		"imgLores":"images/music/tom/tom.jpg",
+		"price": 2103,
+		"new":		"false"
+	},
+	{
+		"id":		5,
+		"title":	"Uprising",
+		"authors": 	["Bob Marley"],
+		"category":	"Reggae",
+		"listOfSongs": ["Coming in from the Cold, Real Situation, Bad Card, We and Dem, Work"],
+		"imgHires":"images/musichd/bm/bm.jpg",
+		"imgLores":"images/music/bm/bm.jpg",
+		"price": 403,
+		"new":		"true"
+	},
+	{
+		"id":		6,
+		"title":	"Coat of Arms",
+		"authors": 	["Sabaton"],
+		"category":	"Power metal, Heavy metal",
+		"listOfSongs": ["Midway, Uprising, Saboteurs, Wehrmacht, White Death, Aces in Exile"],
+		"imgHires":"images/musichd/sab/sab.jpg",
+		"imgLores":"images/music/sab/sab.jpg",
+		"price": 203,
+		"new":		"false"
+	},
+	{
+		"id":		7,
+		"title":	"Laundry Service",
+		"authors": 	["Shakira"],
+		"category":	"Pop",
+		"listOfSongs": ["Rules, Fool, Whenever Wherever, We and Dem, Poem to a Horse"],
+		"imgHires":"images/musichd/s/sv.jpg",
+		"imgLores":"images/music/s/s.jpg",
+		"price": 443,
+		"new":		"false"
+	},
+	{
+		"id":		8,
+		"title":	"Iowa",
+		"authors": 	["Slipknot"],
+		"category":	"Heavy metal",
+		"listOfSongs": ["Disasterpiece, Gently, I Am Hated, Metabolic, Iowa"],
+		"imgHires":"images/musichd/sk/skv.jpg",
+		"imgLores":"images/music/sk/sk.jpg",
+		"price": 433,
+		"new":		"false"
+	},
+	{
+		"id":		9,
+		"title":	"Straight Outta Compton",
+		"authors": 	["N.W.A"],
+		"category":	"Rap, Hip-hop",
+		"listOfSongs": ["Gangsta Gangsta, Quiet on tha Set, Compton's N the House, Straight Outta Compton, 8 Ball, Parental Discretion Iz Advised"],
+		"imgHires":"images/musichd/nwa/nwav.jpg",
+		"imgLores":"images/music/nwa/nwa.jpg",
+		"price": 443,
+		"new":		"true"
+	},
+	{
+		"id":		10,
+		"title":	"Better Dayz",
+		"authors": 	["Tupac Shakur"],
+		"category":	"Rap, Hip-hop",
+		"listOfSongs": ["Thugz Mansion, Better Dayz, Never Call U Bitch Again, They Don't Give a Fuck About Us, Who Do U Believe In, This Life I Lead"],
+		"imgHires":"images/musichd/pac/pac.jpg",
+		"imgLores":"images/music/pac/2pac.jpg",
+		"price": 443,
+		"new":		"false"
+	}
+]}

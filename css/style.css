@@ -1,0 +1,309 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Open Sans Condensed', 'sans-serif';
+}
+
+nav {
+	width: 20%;
+	height: 80%;
+	float: left;
+	margin-top: 4%;
+}
+
+nav #navList {
+	list-style: none;
+}
+
+nav #navList li {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 25px;
+	width: 30px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+nav #icon img {
+	height: 100px;
+	width: 120px;
+	margin-top: -55px;
+	border-radius: 20px;
+}
+
+nav #navList li a {
+	color: black;
+	text-decoration: none;
+	display: none;
+}
+
+nav #navList li span {
+	float: right;
+	font-weight: bold;
+}
+
+#rightDiv {
+	height: 80%;
+	width: 80%;
+	float: right;
+	margin: 2% 0;
+	color: white;
+}
+
+header {
+	width: 97%;
+	height: 20%;
+	clear: both;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 0 20px;
+}
+
+#headerTitles {
+	float: left;
+	height: 100%;
+	width: 60%;
+}
+
+#searchDiv {
+	float: right;
+	height: 100%;
+	width: 30%;
+	padding-top: 20px;
+}
+
+#searchBox {
+	height: 50px;
+	width: 250px;
+	float: left;
+	font-size: 40px;
+	color: rgb(55, 147, 209);
+}
+
+#searchButton {
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	float: left;
+}
+
+#searchButton img {
+	height: 100%;
+	width: 100%;
+}
+
+header h1 {
+	font-size: 50px;
+	line-height: 55px;
+	font-weight: normal;
+}
+
+header h2 {
+	font-weight: normal;
+	line-height: 30px;
+}
+
+#content {
+	width: 97%;
+	height: 75%;
+	clear: both;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 10px 20px;
+	margin-top: 5px;
+	overflow: auto;
+}
+#content  #aboutIcon img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+	margin-left: 350px;
+}
+
+
+.musicDiv {
+	width: 20%;
+	height: 98%;
+	padding: 10px;
+	border-right: 1px solid white;
+	float: left;
+	margin-left: 10px;
+}
+.musicDiv img {
+	width: 200px;
+}
+
+
+.rightMusicDiv {
+	width: 20%;
+	height: 98%;
+	padding: 10px;
+	border-right: 1px solid white;
+	float: left;
+	margin-left: 10px;
+
+}
+
+
+.musicDiv img {
+	height: 70%;
+}
+
+.musicTitle {
+	font-size: 20px;
+}
+
+.musicAuthor {
+	text-decoration: italic;
+	font-size: 12px;
+}
+
+footer {
+	width: 100%;
+	height: 9%;
+	background-color: rgba(0,0,0,0.7);
+	clear: both;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+.footerDivs {
+	display: inline-block;
+	border-right: 1px solid white;
+	padding: 0 5px;
+	height: 40px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+#date {
+	border: 0px;
+	padding-top: 10px;
+}
+
+#icons img {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
+/* SEARCH.HTML STIL */
+#contentHeader {
+	width: 100%;
+	border-bottom: 1px solid white;
+	clear: both;
+}
+
+#searchResults {
+	height: 80%;
+	overflow: auto;
+}
+
+#resultsList {
+	list-style: none;
+	width: 60%;
+}
+
+.resultItem {
+	width: 100%;
+	border-bottom: 1px solid white;
+	height: 200px;
+	padding: 5px;
+}
+
+.resultItem div {
+	float: left;
+}
+
+.resultItem img {
+	float: right;
+	height: 100%;
+}
+
+/* CATEGORIES.HTML STIL */
+#categoryList {
+	list-style: none;
+	width: 20%;
+	float: left;
+}
+
+#categoryList li {
+	margin: 5px 0;
+	background: black;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#categoryMusic {
+	width: 70%;
+	float: right;
+	list-style: none;
+}
+
+#formDiv {
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+#addForm {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	width: 30%;
+}
+
+#addForm label{
+	font-weight: bold;
+}
+
+#addForm #addButton {
+	width: 100px;
+	background: black;
+	color: white;
+	margin-top: 15px;
+	padding: 5px;
+	border: none;
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	font-size: 18px;
+}
+
+#messageDiv {
+	width: 20%;
+	height: 40%;
+	float: right;
+	position: relative;
+	background-color: black;
+	border-radius: 0 0 5px 5px;
+	display: none;
+}
+
+#messageDiv p {
+	position: absolute; 
+    bottom: 5px;
+	left: 15px;
+}
+
+
+.error {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(255, 0, 0, 1);
+	box-shadow:         0px 0px 10px 0px rgba(255, 0, 0, 1);
+}

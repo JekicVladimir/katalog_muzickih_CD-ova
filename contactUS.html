@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Welcome to online music store</title>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/scriptAdd.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav>
+		<div id="icon">
+			<a href="index.html"><img src="images/icon.png"></img></a>
+		</div>
+		<ul id="navList">
+			<li>
+				<a href="index.html">Home</a><span>[H]</span>
+			</li>
+			<li>
+				<a href="categories.html">Browse music</a><span>[B]</span>
+			</li>
+			<li>
+				<a href="add.html">Add music</a><span>[A]</span>
+			</li>
+			<li>
+				<a href="#">Contact us</a><span>[C]</span>
+			</li>
+			<li>
+				<a href="aboutUs.html">About us</a><span>[U]</span>
+			</li>
+		</ul>
+	</nav>
+	<!-- nav -->
+	<div id="rightDiv">
+		<header>
+			<h1>wellcome to our online music store</h1>
+			<h2>Feel free to look around</h2>
+		</header>
+		<!-- header -->
+		<div id="content">
+			<div id="formDiv">
+				<h1>Contact us</h1>
+				<form id="addForm" action="#" method="get">
+					<label for="ImeTxt">Ime*</label><br>
+					<input type="text" name="ime" id="ImeTxt" class="error" data-required="true"><br>
+					<label for="EMailTxt">E-Mail*</label><br>
+					<input type="text" name="E-Mail" id="EMailTxt" class="error" data-required="true"><br>
+					<label for="PorukaTxt">Tekst Poruke*</label><br>
+					<textarea id="PorukaTxt" rows="4" cols="20" class="error" data-required="true"></textarea><br>
+					<button id="addButton" type="submit">Posalji</button>
+				</form>
+				<!-- addForm -->
+				<p>* This field is required</p>
+			</div>
+			<!-- formDiv -->
+			<div id="messageDiv">
+				<p>Please fill in all the required fields!<p>
+			</div>
+			<!-- messageDiv -->
+		</div>
+		<!-- contnent -->
+	</div>
+	<!-- rightDiv -->
+	<footer>
+		<div id="copyright" class="footerDivs">
+			copyright &copy; 2012 <br/>
+			A Web Design company
+		</div>
+		<!-- copyright -->
+		<div id="icons" class="footerDivs">
+			<img src="images/gplus.png" title="Add us on Google+"/>
+			<img src="images/twitter.png" title="Follow us on Twitter"/>
+			<img src="images/face.png" title="Follow us on Facebook"/>
+		</div>
+		<!-- icons -->
+		<div id="date" class="footerDivs">
+			
+		</div>
+		<!-- copyright -->
+	</footer>
+	<!-- rightDiv -->
+</body>
+</html> 
